@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poca — Cerâmica de ateliê</title>
+  <meta name="description" content="A Poca é um ateliê de cerâmica: peças feitas à mão, cozidas no forno uma a uma. Leve uma para casa ou aprenda a fazer a sua em nossos cursos.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__tile"><img src="assets/logo.jpg" alt="" width="42" height="42"></span>
+        <span class="brand__name">poca<span>.</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="galeria.html">Peças</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="loja.html">Loja</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <h1 class="hero__title reveal">Barro, <em>fogo</em> e a marca da mão.</h1>
+          <p class="hero__lede reveal" data-delay="1">A Poca é um ateliê de cerâmica. Cada peça é feita à mão e passa pelo forno uma a uma — nenhuma sai igual, e é isso que a gente gosta.</p>
+          <div class="hero__actions reveal" data-delay="2">
+            <a class="btn btn--ember" href="galeria.html">Ver peças</a>
+            <a class="btn btn--ghost" href="cursos.html">Marcar aula</a>
+          </div>
+          <p class="hero__note reveal" data-delay="3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            Peças únicas · Enviamos para todo o Brasil · Atendimento por WhatsApp e Instagram
+          </p>
+        </div>
+        <div class="hero__visual reveal" data-delay="2">
+          <svg class="arch hero__arch" viewBox="0 0 200 240" fill="none" aria-hidden="true"><path d="M26 232 V118 a74 74 0 0 1 148 0 V232" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg>
+          <img src="assets/img/pexels-39584865.jpg" alt="Grande vaso de barro artesanal feito à mão no ateliê" width="1200" height="1500" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="destaques">
+      <div class="container">
+        <div class="head head--split">
+          <div>
+            <h2 id="destaques">Recém-saídas do forno</h2>
+            <p>Uma amostra do que está sendo tirado da boca do forno esta semana.</p>
+          </div>
+          <a class="btn btn--ghost btn--sm head-link" href="galeria.html">Ver todas as peças</a>
+        </div>
+        <div class="pieces">
+          <a class="piece reveal" href="galeria.html" data-name="Tigela Vulcânica" data-kind="Tigela">
+            <div class="piece__frame"><img src="assets/img/pexels-29230296.jpg" alt="Tigela de cerâmica feita à mão segurada por uma pessoa" loading="lazy"></div>
+            <div class="piece__meta"><span class="piece__name">Tigela Vulcânica</span><span class="piece__kind">Tigela</span></div>
+          </a>
+          <a class="piece reveal" data-delay="1" href="galeria.html" data-name="Conjunto Esmaltado" data-kind="Conjunto">
+            <div class="piece__frame"><img src="assets/img/pexels-35234562.jpg" alt="Conjunto de tigelas de cerâmica com padrões pintados à mão" loading="lazy"></div>
+            <div class="piece__meta"><span class="piece__name">Conjunto Esmaltado</span><span class="piece__kind">Conjunto</span></div>
+          </a>
+          <a class="piece reveal" data-delay="2" href="galeria.html" data-name="Canecas de Ateliê" data-kind="Caneca">
+            <div class="piece__frame"><img src="assets/img/pexels-13575092.jpg" alt="Canecas e jarras de cerâmica coloridas empilhadas" loading="lazy"></div>
+            <div class="piece__meta"><span class="piece__name">Canecas de Ateliê</span><span class="piece__kind">Caneca</span></div>
+          </a>
+          <a class="piece reveal" data-delay="3" href="galeria.html" data-name="Tigela Branca" data-kind="Tigela">
+            <div class="piece__frame"><img src="assets/img/pexels-29312155.jpg" alt="Tigelas brancas artesanais sobre mesa de madeira" loading="lazy"></div>
+            <div class="piece__meta"><span class="piece__name">Tigela Branca</span><span class="piece__kind">Tigela</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto" aria-label="Manifesto">
+      <div class="container reveal">
+        <svg class="arch" viewBox="0 0 200 240" fill="none" aria-hidden="true"><path d="M26 232 V118 a74 74 0 0 1 148 0 V232" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg>
+        <figure>
+          <blockquote>Não fazemos peças iguais. Cada uma carrega o <em>dedo de quem fez</em>.</blockquote>
+          <figcaption>O ateliê, na hora da abertura do forno</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="processo">
+      <div class="container">
+        <div class="head">
+          <h2 id="processo">Do barro à mesa</h2>
+          <p>Três passos, nenhuma pressa. É assim que uma peça nasce aqui.</p>
+        </div>
+        <div class="process">
+          <div class="process__step reveal">
+            <div class="process__glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a7 7 0 0 1 7 7c0 2.5-1.5 4-3 5.5S14 20 12 20s-3-1-4-4.5S5 12.5 5 10a7 7 0 0 1 7-7Z"/><path d="M12 3v6"/></svg></div>
+            <h3>Modelagem</h3>
+            <p>No torno ou na mão, o barro toma forma aos poucos, sem molde e sem repetição.</p>
+          </div>
+          <div class="process__step reveal" data-delay="1">
+            <div class="process__glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.6-7-10a7 7 0 0 1 14 0c0 5.4-7 10-7 10Z"/></svg></div>
+            <h3>Esmaltação</h3>
+            <p>O vidrado cobre a peça e responde ao fogo de um jeito que ninguém controla por completo.</p>
+          </div>
+          <div class="process__step reveal" data-delay="2">
+            <div class="process__glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c2 3 3 5 3 8a3 3 0 0 1-6 0c0-3 1-5 3-8Z"/><path d="M5 21h14"/></svg></div>
+            <h3>Forno</h3>
+            <p>Horas de queima e a espera da abertura: é quando o barro vira cerâmica de verdade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="aprenda">
+      <div class="container">
+        <div class="head head--split">
+          <div>
+            <h2 id="aprenda">Aprenda com a gente</h2>
+            <p>Turmas pequenas, no ateliê, com quem faz cerâmica todos os dias.</p>
+          </div>
+          <a class="btn btn--ember btn--sm head-link" href="cursos.html">Ver cursos e aulas</a>
+        </div>
+        <div class="classes">
+          <article class="class reveal">
+            <div class="class__img"><img src="assets/img/pexels-33878963.jpg" alt="Mãos moldando barro no torno de oleiro" loading="lazy"></div>
+            <div>
+              <h3>Roda para iniciantes</h3>
+              <p>Do centramento ao primeiro cilindro: a base de tudo no torno, com acompanhamento de perto.</p>
+              <ul class="class__facts">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>4 encontros</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>Turma reduzida</li>
+              </ul>
+              <div class="class__cta">
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/5511999999999" data-wa="Olá! Gostaria de reservar uma vaga no curso Roda para iniciantes na Poca. Pode me passar os próximos horários?">Reservar vaga</a>
+              </div>
+              <p class="class__price">Valores sob consulta pelo WhatsApp.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <a class="brand" href="index.html">
+            <span class="brand__tile"><img src="assets/logo.jpg" alt="" width="42" height="42"></span>
+            <span class="brand__name">poca<span>.</span></span>
+          </a>
+          <p>Cerâmica de ateliê, feita à mão e cozida no fogo. Peças únicas e cursos para quem quer pôr a mão no barro.</p>
+        </div>
+        <div>
+          <p class="site-footer__h">Navegação</p>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="galeria.html">Peças</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="site-footer__h">Fale com a gente</p>
+          <ul>
+            <li><a href="https://wa.me/5511999999999" data-wa="Olá! Vim pelo site da Poca e gostaria de mais informações.">WhatsApp</a></li>
+            <li><a href="https://instagram.com/poca.ceramica" data-ig>Instagram</a></li>
+            <li><a href="contato.html">Horários e endereço</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <span>© <span data-year></span> Poca — Cerâmica de ateliê.</span>
+        <span>Feito à mão, como tudo aqui.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.querySelector('[data-year]').textContent = new Date().getFullYear();</script>
+</body>
+</html>
